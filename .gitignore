@@ -1,0 +1,8 @@
+bin/*
+.Python
+include/*
+lib/*
+share/*
+.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*
+pip-selfcheck.json
