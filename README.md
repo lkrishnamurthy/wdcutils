@@ -1,9 +1,14 @@
-# Watson Developer Cloud Performance Evaluation Utilities
-This repository contains a set of Jupyter notebooks that help you in evaluating the performance of your trained Watson Developer Cloud services. Specifically, it includes notebooks for [Natural Language Classifier](https://www.ibm.com/watson/developercloud/nl-classifier.html), [Watson Conversation Service](https://www.ibm.com/watson/developercloud/conversation.html), and [Watson Visual Recognition](https://www.ibm.com/watson/developercloud/visual-recognition.html) service. We will add notebooks for other services as they become available.
+# Watson Developer Cloud APIs - Performance Evaluation Utilities
+This repository contains a set of Jupyter notebooks that help you in evaluating the performance of your trained Watson Developer Cloud services. Specifically, it includes notebooks for [Natural Language Classifier](https://www.ibm.com/watson/developercloud/nl-classifier.html), [Watson Conversation Service](https://www.ibm.com/watson/developercloud/conversation.html), [Watson Discovery Service]
+(https://www.ibm.com/watson/developercloud/discovery.html) and [Watson Visual Recognition]
+(https://www.ibm.com/watson/developercloud/visual-recognition.html) service. 
+
+I will add notebooks for other services as they become available.
 
 ## Prerequisites
 To use these notebooks, you need the following:
 * A Unix-based OS (or Cygwin)
+* [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 * [Git](https://git-scm.com/downloads)
 * [python 2](https://www.python.org/downloads/) or [python 3](https://www.python.org/downloads/)
 * [Anaconda](https://www.continuum.io/downloads) - Installing this package also installs the Jupyter notebook package, which includes iPython (now referred to as jupyter)
@@ -17,8 +22,8 @@ If you are using a Linux system, the git, anaconda, python, and node.js pac
 * **pip install watson-developer-cloud**
 * **pip install pandas-ml**
 
-## Runnig the Notebooks
-* **git clone https://github.com/joe4k/wdcutils.git**
+## Running the Notebooks
+* **git clone https://github.com/lkrishnamurthy/wdcutils.git**
 * Open **example_parms.json** in a text editor and update the parameters:
   * NLC credentials(url, username, password)
   * classifier id of trained classifier
