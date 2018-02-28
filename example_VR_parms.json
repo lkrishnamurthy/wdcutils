@@ -1,9 +1,0 @@
-{
-	"url": "https://gateway-a.watsonplatform.net/visual-recognition/api",
-	"apikey":"939c674c42cc07d586287349e8ddec1c683171d0",
-	"vr_id":"ConnectorsxAll_296574083",
-        "base_folder" : "/Users/lkrishna/Downloads/connectors/test-set/test",
-	"test_csv_file": "/Users/lkrishna/Downloads/connectors/test-set/test/test-set.csv",
-	"results_csv_file": "/Users/lkrishna/Downloads/connectors/test-set/test/test-results.csv",
-	"confmatrix_csv_file": "/Users/lkrishna/Downloads/connectors/test-set/test/confmatrix.csv"
-}
