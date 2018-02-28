@@ -6,3 +6,4 @@ share/*
 .ipynb_checkpoints/*
 notebooks/.ipynb_checkpoints/*
 pip-selfcheck.json
+example_VR_parms.json
